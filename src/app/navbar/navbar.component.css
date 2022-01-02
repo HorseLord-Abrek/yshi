@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap");
+
+
+.navbarbg-custom {
+  background-color: rgba(0, 0, 0, 0.877);
+}
+
+
+body {
+  background-color: purple;
+  font-weight: 300
+}
+
+@media screen and (max-width:975px) {
+  .item-container{
+     width: 100%;
+     display: flex;
+     justify-content: center;
+  }
+  .first-item{
+     padding-left: 0px !important;
+  }
+  .second-item{
+     padding-right: 0px !important;
+  }
+}
